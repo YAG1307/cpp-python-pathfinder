@@ -1,6 +1,6 @@
 ## ➡️ C++ Pathfinder Library for Python
 
-A fast A* pathfinding engine written in **C++, then built into a library for Python 3.14 using pybind11. Visualization through pygame in visualizer.py.
+An A* pathfinding engine written in **C++, then built into a library for Python 3.14 using pybind11. Visualization through pygame in visualizer.py.
 
 ---
 
