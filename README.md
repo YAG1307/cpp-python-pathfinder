@@ -26,3 +26,11 @@ This project bridges fast C++ code with Python's simple scripting. The core path
    ```powershell
    git clone [https://github.com/YAG1307/cpp-python-pathfinder.git](https://github.com/YAG1307/cpp-python-pathfinder.git)
    cd cpp-python-pathfinder
+2. Build extension into python.
+   ```powershell
+   pip install -e . --force-reinstall --no-cache-dir
+3. Run visualizer.py
+
+---
+## Dev Notes
+
