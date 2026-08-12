@@ -2,14 +2,12 @@ import sys
 import pygame
 import cpp_pathfinder
 
-# Constants
 GRID_SIZE = 25
 TILE_SIZE = 24
 GAP = 1
 WINDOW_SIZE = GRID_SIZE * (TILE_SIZE + GAP)
-HEADER_HEIGHT = 40  # Extra space at the top for UI text
+HEADER_HEIGHT = 40  
 
-# Colors (RGB)
 WHITE = (240, 240, 240)
 BLACK = (30, 30, 30)
 GREEN = (46, 204, 113)
@@ -29,7 +27,7 @@ def main():
 
     grid = cpp_pathfinder.Grid(GRID_SIZE, GRID_SIZE)
 
-    start = (2, 2) # Cords
+    start = (2, 2)
     target = (GRID_SIZE - 3, GRID_SIZE - 3)
     obstacles = set()
 
@@ -104,7 +102,6 @@ def main():
         )
         screen.blit(text_surface, (10, 10))
 
-        # Render Grid below header
         for row in range(GRID_SIZE):
             for col in range(GRID_SIZE):
                 color = WHITE
