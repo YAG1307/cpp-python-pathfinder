@@ -5,7 +5,7 @@ An A* pathfinding engine written in C++, then built into a library for Python 3.
 ---
 # GIF 
 
-[https://github.com/user-attachments/assets/Pathfinder Video.mp4]
+[https://github.com/user-attachments/assets/PathfinderVideo.mp4]
 
 ---
 ## Summary & Highlights
