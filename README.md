@@ -3,7 +3,9 @@
 An A* pathfinding engine written in C++, then built into a library for Python 3.14 using pybind11. Visualization through pygame in visualizer.py.
 
 ---
-# GIF 
+# IMAGE
+
+
 
 <img width="917" height="1004" alt="image" src="https://github.com/user-attachments/assets/80dbbb0a-2fe0-445e-b197-228a2a247d1f" />
 
