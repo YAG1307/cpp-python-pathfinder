@@ -13,10 +13,10 @@ An A* pathfinding engine written in C++, then built into a library for Python 3.
 ---
 ## Summary & Highlights
 
-This project bridges fast C++ code with Python's simple scripting. The core pathfinding calculations, node traversal, and priority queue operations run inside compiled C++, allowing 0 path evaluation while allowing Python to handle rendering. 
+This project combines a C++ pathfinding core with a Python interface, using pybind11 to expose the native implementation to Python. The core pathfinding calculations, node traversal, and priority queue operations run inside compiled C++, allowing path evaluation while Python handles rendering rendering. 
 
-* C++ Engine (cpp): node representation, grid allocation, and an A* algorithm.
-* Python Binding: Using pybind11, I created a pyrpoject.toml and setup.py to bridge the C++ code directly into Python.
+* C++ Engine: node representation, grid allocation, and an A* algorithm.
+* Python Binding: : Using pybind11, I bridged the C++ pathfinding functionality to Python and configured the package build through pyproject.toml and setup.py.
 * Visualizer (python/visualizer.py):** Interactive grid frontend capturing mouse inputs, modifying obstacle states in C++, and rendering paths instantly.
 
 ---
